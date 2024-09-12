@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 function UserRoutes() {
   return (
-   <BrowserRouter basename='Coupon'>
+   <BrowserRouter basename='/Coupon'>
     <Routes>
         <Route path="/" element={<Home/>}> </Route>
     </Routes>
