@@ -828,7 +828,7 @@ function Home() {
               >
                 <div className="col-md-12">
                   <Swiper
-                    slidesPerView={1.5}
+                    slidesPerView={1}
                     spaceBetween={0}
                     centeredSlides={true}
                     loop={true}
@@ -838,13 +838,13 @@ function Home() {
                     }}
                     breakpoints={{
                       768: {
+                        slidesPerView: 2.1,
+                        spaceBetween: 30,
+                      },
+                      992: {
                         slidesPerView: 3,
                         spaceBetween: 30,
                       },
-                    //   992: {
-                    //     slidesPerView: 3,
-                    //     spaceBetween: 30,
-                    //   },
                     }}
                     navigation={true}
                     modules={[Navigation]}

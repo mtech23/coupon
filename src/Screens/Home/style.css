@@ -59,7 +59,8 @@ html, body {
 }
 .banner_section{
     background-image: url(../../Assets/images/banner_bg.png);
-    background-position: center;
+    background-position: bottom center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 70px 20px;
@@ -198,6 +199,7 @@ html, body {
     opacity: 0.9;
 }
 .third_section{
+    /* background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(../../Assets/images/card_bg.png); */
     background-image: url(../../Assets/images/card_bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -273,7 +275,7 @@ html, body {
     overflow: hidden;
     /* background-image: url(../../Assets/images/card_bg_one.png); */
     border-radius: 12px 12px 12px 12px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .card_bottom_bg{
     background-image: url(../../Assets/images/card_bottom.png);
@@ -849,7 +851,7 @@ input.comments_input[type=email]{
     width: 110%;
     left: -5%;
     display: flex;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
     gap: 10px;
     justify-content: space-between;
     align-items: center;
